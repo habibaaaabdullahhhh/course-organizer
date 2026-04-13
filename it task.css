@@ -1,0 +1,149 @@
+body{	background-image:url("back.png");
+background-size: cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+p{
+	color:#2b2b2b;;
+	font-family:arial;
+
+}
+
+h1{
+font-family:arial;
+padding-top:150px;
+color:#2b2b2b;
+
+}
+h3{
+	
+	color:#2b2b2b;;
+	font-family:arial;
+}
+a:hover{
+color:#C8A8E9;
+cursor:pointer;
+font-size:20px;}
+nav a{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    background-color:#FFFFFFD9;
+    border-radius: 10px;
+    
+}
+footer {
+font-size:10;
+    color:#7a5fa0;
+}
+table {
+    width: 85%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+th {
+    background-color: #C8A8E9;
+    color: white;
+    
+}
+tr:hover{
+
+	cursor:pointer;
+	background:	#FFFFFFD9;
+}
+form {
+    width: 40%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color:#FFFFFFD9;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+label{
+color:#333;
+font-size: 20px;
+
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #C8A8E9;
+    color: white;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+}
+@media (max-width: 768px) {
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px auto;
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 22px;
+        padding-top: 60px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    table {
+        width: 95%;
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+  
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 95%;
+    }
+
+    
+    input[type="submit"],
+    input[type="reset"] {
+        width: 45%;
+        margin: 10px 5px;
+    }
+
+    footer {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
